@@ -23,6 +23,7 @@ ORDER BY t1.start_date, t1.division, t1.spirit_placing
 The structure of the data is following
 
 | Column no | Column title | Description |
+|-----------|--------------|-------------|
 | 1 | start_date |    |
 | 2 | type |    |
 | 3 | div |    |
