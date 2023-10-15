@@ -1,4 +1,6 @@
-# Spirit of the Game -data
+# Spirit of the Game
+
+## The data
 
 The available data is included in this folder in SOTG_sumaries.csv -file
 
@@ -24,14 +26,19 @@ The structure of the data is following
 
 | Column no | Column title | Description |
 |-----------|--------------|-------------|
-| 1 | start_date |    |
-| 2 | type |    |
-| 3 | div |    |
-| 4 | no_of_countrues |    |
-| 5 | country |    |
-| 6 | placing |    |
-| 7 | spirit_placing |    |
-| 8 | spirit_score |    |
-| 9 | no_of_spirit_placings |    |
-| 10 | no_of_spirit_scores |    |
+| 1 | start_date | The start date of the tournament in question in the format of yyyy-mm-dd   |
+| 2 | type | The type of the tournament (wc is World Championships, ec is European Championships, aoc is Asea-Oceanic Championships, etc.) |
+| 3 | div | The shorthand of the division (OPN is Open, WMN is Women, etc.) This needs to be fixed to follow the current WFDF guidelines |
+| 4 | no_of_countries | How many countries participated in the tournmant in that division |
+| 5 | country | The country with 2-letter ISO-code |
+| 6 | placing | The final placing of teh country in the tournament |
+| 7 | spirit_placing | The final spirit score placing of the country |
+| 8 | spirit_score | The final spirit score for the team |
+| 9 | no_of_spirit_placings | How many teams from the division have spirit placing information available (for some older tournaments, only the winner is known) |
+| 10 | no_of_spirit_scores | How many teams from the division have spirit score value available |
+
+## The spirit data averages for countries and divisions
+
+
+## The correlation of teams placing and spirit placing
 
