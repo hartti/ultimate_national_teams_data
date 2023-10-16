@@ -39,6 +39,25 @@ The structure of the data is following
 
 ## The spirit data averages for countries and divisions
 
+|div|G17|G19|G23|GMM|J17|J19|M17|M19|M23|MAS|MIX|MMX|OPN|U23|WMN|WMS|Grand Total|
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|country|normalized_spirit_placing (Average)|||||||||||||||||
+|ae|||||||||||27.36||||||27.36|
+|at|1.00|18.43|12.68||8.33|15.29|1.00||10.90||46.92||59.06|39.81|11.02||22.97|
+|au||27.92|29.48|||31.72|||60.67|65.08|47.92||27.08|62.06|37.71|75.25|44.72|
+|be|20.80|36.36|46.00||62.88|46.75|50.50|34.00||38.13|22.12||61.16|77.10|56.98||48.53|
+|br|||||||||||0.00||||||0.00|
+|by|||||||||||17.50||||||17.50|
+|ca||65.23|56.76|||38.58|||81.98|87.63|80.74||54.20|58.51|34.00|80.20|62.88|
+|ch||37.18|28.00||42.25|46.10||17.50|53.80|100.00|14.21||56.93|52.89|81.54|17.50|45.87|
+|cn||42.25|100.00|||35.94|||50.75||60.10||74.68|38.83|17.50||53.39|
+|co|15.14|24.16|73.04||21.35|42.33||67.00|50.19||61.11||94.50|51.38|89.69||54.07|
+
 
 ## The correlation of teams placing and spirit placing
+
+## To-do
+
+* division acronyms should follow WFDF guidelines
+* include normalized placings column and normalized spirit placing column
 
