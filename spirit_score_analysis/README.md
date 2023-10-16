@@ -39,6 +39,14 @@ The structure of the data is following
 
 ## The spirit data averages for countries and divisions
 
+The following pivot table provides an overview of the "normalized" spirit placings of countries across different divisions. The normalizing here means that as there are varying number of teams in each tournament and division, the normalized spirit placings are always between 1 and 100 (1 meaning the spirit winner and 100 that the team placed last in teh spirit rankings). The table omits all the spirit placings from tournaments, where only information about the winner is available.
+
+in more technical terms the normalized spirit placings are calculated with the following formula
+
+```
+normalized_spirit_placing = (spirit_placing -1) / (number_of_teams-1) * 99 + 1
+```
+
 |div|G17|G19|G23|GMM|J17|J19|M17|M19|M23|MAS|MIX|MMX|OPN|U23|WMN|WMS|Grand Total|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 |ae|||||||||||27.36||||||27.36|
