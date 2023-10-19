@@ -10,3 +10,5 @@ GROUP BY teams.division, people.person_id
 ORDER BY division ASC, games DESC, wins DESC, last_name ASC, first_name ASC
 
 ```
+
+The same data with slight edits is also available [here](https://docs.google.com/spreadsheets/d/1eSTdc69qe4vEIROm-7eG2XsxS3TSTpF8T-DmAXGKmZk/edit?usp=sharing) so one can filter for example based on divisions and order based on for example number of games, wins or win percentage.
